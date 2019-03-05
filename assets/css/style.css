@@ -14,7 +14,11 @@
     background-color: #9b59b6;
 }
 
-.bg-color-personal-info{
+.bg-color-contact {
+    background-color: #fff;
+}
+
+.bg-color-personal-info {
     background-color: #f4f4f4;
 }
 
@@ -227,7 +231,6 @@ footer {
 
 /* --------------------------------------Three reasons */
 
-
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
@@ -252,7 +255,7 @@ footer {
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p{
+.personal-info-item .value p {
     margin: 0;
 }
 
@@ -272,7 +275,7 @@ footer {
     position: relative;
 }
 
-/* --------------------------------------Skills */ 
+/* --------------------------------------Skills */
 
 .progress {
     position: relative;
@@ -293,7 +296,7 @@ footer {
     margin: 40px 20px;
 }
 
-/* --------------------------------------Work History */ 
+/* --------------------------------------Work History */
 
 .history-heading {
     color: #fafafa;
@@ -307,7 +310,7 @@ footer {
     border-left: 1px solid;
 }
 
-.timeline-item p{
+.timeline-item p {
     padding: 0;
     margin: 0;
 }
@@ -321,7 +324,7 @@ footer {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -329,7 +332,7 @@ footer {
     width: 12px;
     height: 12px;
     display: block;
-    top:2.4em;
+    top: 2.4em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
@@ -339,4 +342,37 @@ footer {
 
 .history-item {
     margin-bottom: 30px;
+}
+
+/* --------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type=submit] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* --------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
